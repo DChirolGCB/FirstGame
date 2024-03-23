@@ -1,2 +1,15 @@
 # Godot 4+ specific ignores
 .godot/
+.vscode/
+# Ignore import files
+*.import/
+
+# Ignore export files
+export.cfg
+export_presets.cfg
+
+# Ignore .mono/ directory
+.mono/
+
+# Ignore user-specific files
+user://*
